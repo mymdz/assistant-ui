@@ -2,6 +2,7 @@
   "extends": "@assistant-ui/tsconfig/base.json",
   "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
+    "jsx": "preserve",
     "paths": {
       "assistant-stream": ["../../packages/assistant-stream/src"],
       "assistant-stream/*": ["../../packages/assistant-stream/src/*"],
